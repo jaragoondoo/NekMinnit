@@ -143,7 +143,14 @@
     <ClCompile Include="Scooter.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Scooter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NekMinnit.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap1.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
