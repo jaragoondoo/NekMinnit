@@ -9,6 +9,4 @@ int main()
     Scooter* scootPtr = new Scooter(5);
 
     cout << "Nek minnit\n";
-
-    delete scootPtr;
 }
