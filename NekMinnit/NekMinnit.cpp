@@ -1,6 +1,7 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "I parked my scooter outside the dairy\n";
+    cout << "I parked my scooter outside the dairy\n";
 }
